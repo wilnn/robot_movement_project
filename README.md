@@ -1,1 +1,2 @@
-# robot_movement_project
+The primary objective of this project is to apply the human movements factor by using Fitts’s Law to increase the human likeness of robot movement. Fitts’s Law is the human movements principle that is mainly used in the field of human-robot interaction. It states that the needed time to move to a target area is the function of the ratio between the distance to the target and the target's width. 
+When comparing human and robot movements, human movements are always thought to be more efficient. Therefore, increasing the human likeness of the robot‘s movements will theoretically increase the movements' efficiency.
