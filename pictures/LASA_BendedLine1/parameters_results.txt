@@ -1,0 +1,5 @@
+Shape, Demo_number, Demo_points, Stretch, Bend, kv, N, SSE, Frechet, Angular, Jerk
+With Uh:
+'BendedLine', 1, 250, array(0.01016724), array(0.04482631), array(nan), 50, 0.0, 1.3471986105267966, nan, 634.6536402666899
+without uh:
+'BendedLine', 1, 250, array(0.01016724), array(0.04482631), array(nan), 50, 0.45624041600078474, 1.3232404969592837, 0.020240471132113972, 632.1611740108764
