@@ -1,0 +1,5 @@
+Shape, Demo_number, Demo_points, Stretch, Bend, kv, N, SSE, Frechet, Angular, Jerk
+With Uh:
+'Worm', 1, 250, array(0.02539655), array(0.14988469), array(nan), 50, 0.0, 0.974862598152009, nan, 460.7590405799753
+without uh:
+'Worm', 1, 250, array(0.02539655), array(0.14988469), array(nan), 50, 10.565783824505823, 1.0026060432383321, 0.030176596824527165, 444.9185477754224

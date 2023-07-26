@@ -1,0 +1,5 @@
+Shape, Demo_number, Demo_points, Stretch, Bend, kv, N, SSE, Frechet, Angular, Jerk
+With Uh:
+'Saeghe', 1, 250, array(0.02543022), array(0.13563488), array(nan), 50, 0.0, 1.2417724933992467, nan, 550.8399827587381
+without uh:
+'Saeghe', 1, 250, array(0.02543022), array(0.13563488), array(nan), 50, 12.470425547683543, 1.6798319332385627, 0.03737661965865774, 520.6004099541985

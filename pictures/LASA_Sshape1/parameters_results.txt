@@ -1,0 +1,5 @@
+Shape, Demo_number, Demo_points, Stretch, Bend, kv, N, SSE, Frechet, Angular, Jerk
+With Uh:
+'Sshape', 1, 250, array(0.0253763), array(0.11473803), array(nan), 50, 0.0, 2.1285358333994586, nan, 1094.401652035527
+without uh:
+'Sshape', 1, 250, array(0.0253763), array(0.11473803), array(nan), 50, 51.52133364587603, 3.181476819932792, 0.038359333920017384, 1052.5717597056919

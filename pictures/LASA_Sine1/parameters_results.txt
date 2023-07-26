@@ -1,0 +1,5 @@
+Shape, Demo_number, Demo_points, Stretch, Bend, kv, N, SSE, Frechet, Angular, Jerk
+With Uh:
+'Sine', 1, 250, array(0.02546734), array(0.11132947), array(nan), 50, 0.0, 1.3257284597765908, nan, 632.8142977150841
+without uh:
+'Sine', 1, 250, array(0.02546734), array(0.11132947), array(nan), 50, 34.94434634641559, 1.351326623007323, 0.029485285072525937, 603.2417756093023

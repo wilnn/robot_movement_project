@@ -1,0 +1,5 @@
+Shape, Demo_number, Demo_points, Stretch, Bend, kv, N, SSE, Frechet, Angular, Jerk
+With Uh:
+'Zshape', 1, 250, array(0.02541721), array(0.15935733), array(nan), 50, 0.0, 1.80374802474415, nan, 965.7078233823942
+without uh:
+'Zshape', 1, 250, array(0.02541721), array(0.15935733), array(nan), 50, 24.973851359786085, 1.9482574675037547, 0.016894034447702523, 935.3125350217656
