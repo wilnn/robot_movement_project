@@ -14,6 +14,18 @@ def save_plot(fpath, demo, repro_uh, repro):
     fig.savefig(fpath + 'plot.png', bbox_inches='tight', dpi=300)
     plt.close(fig)
 
+def save_plot_3d(fpath, demo, repro_uh, repro):
+    fig = plt.figure().add_subplot(projection='3d')
+
+    plt.plot(demo[:, 0], demo[:, 1], demo[:, 2], 'k',  lw=3, label='Demonstration')
+    plt.plot(repro_uh[:, 0], repro_uh[:, 1], repro_uh[:, 2], 'r',  lw=3, label='Reproduction with Uh')
+    plt.plot(repro[:, 0], repro[:, 1], repro[:, 2], 'b',  lw=3, label='Reproduction without Uh')
+
+    plt.grid(True)
+    plt.legend()
+    fig.get_figure().savefig(fpath + 'plot.png', bbox_inches='tight', dpi=300)
+    plt.close(fig.get_figure())
+
 def read_RAIL_demo(skill, fnum, dnum):
     
     filename = '../h5 files/RAIL_' + skill + '.h5'

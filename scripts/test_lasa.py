@@ -22,8 +22,9 @@ def main():
     # define parameters
     num_points = 50 #N
     
-    # for each shape
+    
     for num_demo in range(1, 2):
+        # for each shape
         for name in lasa_names:
             # create save folder
             save_fpath = '../pictures/LASA_' + name + str(num_demo) + '/'
