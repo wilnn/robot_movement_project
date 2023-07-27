@@ -1,0 +1,5 @@
+Shape, Demo_number, Demo_points, Stretch, Bend, kv, N, SSE, Frechet, Angular, Jerk
+With Uh:
+'JShape', 1, 250, array(0.0254125), array(0.17787276), array(nan), 50, 0.0, 1.071678259141543, nan, 574.5554555957987
+without uh:
+'JShape', 1, 250, array(0.0254125), array(0.17787276), array(nan), 50, 12.942005063767262, 2.6856540802139137, 0.02135571271426749, 563.6805117737865

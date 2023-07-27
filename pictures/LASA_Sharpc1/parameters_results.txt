@@ -1,0 +1,5 @@
+Shape, Demo_number, Demo_points, Stretch, Bend, kv, N, SSE, Frechet, Angular, Jerk
+With Uh:
+'Sharpc', 1, 250, array(0.02547017), array(0.17758829), array(1.86582206), 50, 0.0, 1.516212386581532, nan, 789.1882372526745
+without uh:
+'Sharpc', 1, 250, array(0.02547017), array(0.17758829), array(1.86582206), 50, 59.22920375060554, 1.7334344115605673, 0.023294463771881716, 780.7407794915578
