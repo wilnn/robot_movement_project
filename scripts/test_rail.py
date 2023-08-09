@@ -7,7 +7,7 @@ from elmap_autotuning import *
 
 def main():
 
-    demo_points = 250 #M
+    demo_points = 50 #M
     
     # define parameters
     num_points = 50 #N
