@@ -13,7 +13,7 @@ def main():
     num_points = 50 #N
     for fnum in range(1, 5):
         for dnum in range(1, 5):
-            save_fpath = '../rail_pushing/' + str(fnum) + '_' + str(dnum) + '/'
+            save_fpath = '../rail_pushing12/' + str(fnum) + '_' + str(dnum) + '/'
             try:
                 os.makedirs(save_fpath)
             except OSError:
@@ -26,11 +26,13 @@ def main():
             init_ds = downsample_traj(demo, n=num_points)
 
             stretch_const, bend_const = estimate_stretch_bend(demo, init_ds)
-            kv_const = estimate_crv(demo, init_ds)
+            #kv_const = estimate_crv(demo, init_ds)
+            kv_const = 0.00001
             print([stretch_const, bend_const, kv_const])
 
             EM = elastic_map(given_data=demo, init=init_ds, stretch=stretch_const, bend=bend_const, crv=kv_const, termination_condition=1)
             repro_uh = EM.calc_grid_uh(plot=False)
+            EM = elastic_map(given_data=demo, init=init_ds, stretch=stretch_const, bend=bend_const, crv=kv_const, termination_condition=1)
             repro = EM.calc_grid(plot = False)
 
             # measure reproduction

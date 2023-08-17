@@ -45,7 +45,7 @@ def kv_est(nodes, Uy):
             rho = np.linalg.norm(xt1)*3 / (np.linalg.norm(xt1)**2 * np.linalg.norm(xt2)**2 - np.dot(xt1, xt2)**2)**0.5
             sum_v = sum_v + np.linalg.norm(xt1)
             sum_rho = sum_rho + rho**(1/3)
-    kv = 5 * (sum_v - Uy) / sum_rho
+    kv = (sum_v - Uy) / sum_rho
     return kv
     
 def estimate_stretch_bend(data, init, weights=None):

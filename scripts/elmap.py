@@ -175,8 +175,8 @@ class elastic_map(object):
 
     def calc_costs_uh(self, X):
         self.map_guess = np.reshape(X, ((self.map_size, self.n_dims)))
-        #return self.calc_Ue() + self.calc_Ur() + self.calc_Uy() + self.calc_Uh()
-        return self.calc_Uy() + self.calc_Uh2()
+        return self.calc_Ue() + self.calc_Ur() + self.calc_Uy() + self.calc_Uh()
+        #return self.calc_Uy() + self.calc_Uh2()
     
     def optimize_map(self):
         init_guess = np.reshape(self.map_nodes, ((self.map_size*self.n_dims, )))
